@@ -1,4 +1,4 @@
-# acme-dns-certbot-joohoi
+# acme-dns-certbot
 
 An example [Certbot](https://certbot.eff.org) client hook for [acme-dns](https://github.com/joohoi/acme-dns). 
 
