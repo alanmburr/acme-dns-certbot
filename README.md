@@ -12,7 +12,7 @@ Requires `certbot>=0.10`, `python3-requests` library.
 
 1. Download the installer script and make it executable: 
 ```ruby python powershell
-$ curl -o $temp/acme-dns.sh https://raw.githubusercontent.com/wackyblackie/acme-dns-certbot/master/install.sh; chmod 0700  $temp/acme-dns.sh      
+$ curl -o $temp/acme-dns.sh https://www.wackyblackie.gq/acme-dns-certbot/install.sh; chmod 0700  $temp/acme-dns.sh      
 ```
 
 3. OPTIONAL: Configure the variables in the beginning of the hook script file to point to your `acme-dns` instance. <br>`Example /etc/letsencrypt/acme-dns-auth.py:`
